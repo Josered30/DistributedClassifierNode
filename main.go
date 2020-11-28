@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"os"
 	"time"
-
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
 )

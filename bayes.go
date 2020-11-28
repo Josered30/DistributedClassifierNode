@@ -242,7 +242,7 @@ func train(chunks int) {
 }
 
 func naiveBayes(inputData InputData) float64 {
-	class := os.Getenv("class")
+	class := os.Getenv("CLASS")
 	probs, _ := loadData(fmt.Sprintf("./%s.csv", class))
 
 	var aux string = inputData.Description + " " + inputData.Headline
